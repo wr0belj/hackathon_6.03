@@ -1,0 +1,22 @@
+.label {
+  font-size: 1.8rem;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.input {
+  font-family: inherit;
+  font-size: 1.6rem;
+  color: #222;
+
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 0.5rem 1rem;
+  border-radius: 100rem;
+
+  width: 100%;
+}

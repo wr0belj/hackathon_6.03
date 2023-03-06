@@ -1,0 +1,12 @@
+.event-icon {
+  width: 5rem;
+    padding: 1rem;
+    transition: all 0.2s;
+    filter: invert(12%) sepia(99%) saturate(4616%) hue-rotate(261deg)
+    brightness(96%) contrast(140%);
+}
+
+.event-icon:hover{
+  filter: invert(59%) sepia(92%) saturate(4023%) hue-rotate(217deg)
+  brightness(105%) contrast(90%);
+}

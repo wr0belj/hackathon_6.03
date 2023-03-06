@@ -1,0 +1,60 @@
+.profile{
+    margin: 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    background-color:var(--color-bg);
+    border-radius: 1.2rem;
+}
+
+.edit{
+    margin: auto;
+    padding: 1.2rem;
+    border:none;
+    border-radius: 1.2rem;
+    background-color: var(--color-btn);
+    color: white;
+    font-size: 2rem;
+    width: 70%;
+}
+
+.sele{
+    padding: 1rem;
+    border: none;
+    border-radius: 1.2rem;
+
+}
+
+.pic{
+    position: relative;
+    display: flex;
+}
+
+.icon{
+    font-size: 2.3rem;
+}
+
+.event-attributes{
+    justify-self: right;
+    align-self: right;
+}
+
+.exit{
+    transition: all 0.2s;
+    position: absolute;
+    right: 1px;
+    filter: invert(100%) sepia(6%) saturate(24%) hue-rotate(302deg) brightness(108%) contrast(100%);
+}
+
+.exit:hover{
+    filter: invert(48%) sepia(10%) saturate(10%) hue-rotate(317deg) brightness(95%) contrast(82%);
+}
+
+.username{
+    padding: 1rem;
+}
+
+.optionchange h2{
+    padding: 1rem;
+}

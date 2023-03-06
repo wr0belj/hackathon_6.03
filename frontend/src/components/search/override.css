@@ -1,0 +1,23 @@
+._3Ewis>input {
+    width: inherit;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: transparent;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    padding-left: 45px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+._3Ewis ._3lFwG {
+    border: 1px solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    border-color: aliceblue;
+    max-height: 500px;
+    overflow: scroll;
+    z-index: 99999;
+}

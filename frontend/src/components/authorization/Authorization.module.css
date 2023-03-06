@@ -1,0 +1,53 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+  background-color: #ccc;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
+  background-color: #ddd;
+  padding: 3.6rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.05);
+
+  width: 48rem;
+  max-width: 96%;
+}
+
+.control {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  gap: 1.4rem;
+}
+
+.btn {
+  flex: 1;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border-radius: 100rem;
+  padding: 0.5rem;
+
+  font-size: 1.6rem;
+
+  transition: all 0.4s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}

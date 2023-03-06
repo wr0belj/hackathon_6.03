@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Oxygen", sans-serif;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+input,
+button {
+  font-family: inherit;
+}
+
+button {
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: var(--color-btnhov);
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}

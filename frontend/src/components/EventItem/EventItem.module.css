@@ -1,0 +1,72 @@
+.list-item {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: var(--color-bg);
+  border-radius: 1.2rem;
+}
+
+.main-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-box h1 {
+  padding: 1rem;
+  justify-self: center;
+  align-self: center;
+  color: black;
+}
+
+.event-icon {
+  padding: 1rem;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(3deg)
+    brightness(100%) contrast(104%);
+}
+
+.main-box h2 {
+  padding: 1rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.increment {
+  padding: 1rem;
+  width: 5rem;
+  transition: all 0.2s;
+  filter: invert(12%) sepia(99%) saturate(4616%) hue-rotate(261deg)
+    brightness(96%) contrast(140%);
+}
+
+.increment:hover {
+  filter: invert(59%) sepia(92%) saturate(4023%) hue-rotate(217deg)
+    brightness(105%) contrast(90%);
+}
+
+.details-box {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  padding: 1rem;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  gap: 0.8rem;
+}
+
+.author {
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.description {
+  font-size: 1.4rem;
+  word-wrap: break-word;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+}
